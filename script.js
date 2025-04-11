@@ -13,10 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Mock user data - in real app this would come from Aadhaar verification API
         const mockUserData = {
-            name: "Rahul Sharma",
-            phone: "9876543210",
-            address: "Flat 201, Sunshine Apartments, Mumbai - 400001",
-            aadhaar: "123456789012"
+            name: "Aman Raj Singh",
+            phone: "6206505309",
+            address: "Flat 201, Sunshine Apartments, Jamshedpur - 831001",
+            aadhaar: "556445978381"
         };
 
         // Step 1: Aadhaar Verification
