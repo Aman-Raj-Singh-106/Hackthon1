@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIR Filing System</title>
+    <link rel="stylesheet" href="fir.css">
+</head>
+<body>
+    <header>
+        <h1>FIR Filing System</h1>
+        <p>Submit and track your FIR reports easily</p>
+    </header>
+    <main>
+        <h2>File a New FIR</h2>
+        <form action="/submit-fir" method="POST">
+            <div>
+                <h4 id="h1">कृपया एक नई शिकायत दर्ज करने के लिए नीचे दिए गए फ़ार्म को भरे /
+                    Please fill in the form below to register a new complain</h4>
+                <label for="reporterName">Reporter Name</label>
+                <input type="text" id="reporterName" name="reporterName" required>
+            </div>
+            <div>
+                <label for="contact">Contact Information</label>
+                <input type="text" id="contact" name="contact" required>
+            </div>
+            <div>
+                <label for="caseType">Case Type</label>
+                <select id="caseType" name="caseType" required>
