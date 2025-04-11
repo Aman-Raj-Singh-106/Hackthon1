@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FIR Filing System</title>
-    <link rel="stylesheet" href="fir.css">
+    <title>Virtual Police Station - Citizen Portal</title>
+    <link rel="stylesheet" href="demo.css">
+    <script src="demo.js"></script>
+
 </head>
+
 <body>
     <header>
-        <h1>FIR Filing System</h1>
-        <p>Submit and track your FIR reports easily</p>
+        <h1>Virtual Police Station</h1>
+        <p>Citizen Portal for Complaint Filing and Case Tracking</p>
     </header>
-    <main>
-        <h2>File a New FIR</h2>
-        <form action="/submit-fir" method="POST">
-            <div>
-                <h4 id="h1">कृपया एक नई शिकायत दर्ज करने के लिए नीचे दिए गए फ़ार्म को भरे /
-                    Please fill in the form below to register a new complain</h4>
-                <label for="reporterName">Reporter Name</label>
-                <input type="text" id="reporterName" name="reporterName" required>
-            </div>
-            <div>
-                <label for="contact">Contact Information</label>
-                <input type="text" id="contact" name="contact" required>
-            </div>
-            <div>
-                <label for="caseType">Case Type</label>
-                <select id="caseType" name="caseType" required>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#file-complaint">File Complaint</a></li>
+            <li><a href="#track-case">Track Case</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
