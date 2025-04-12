@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track FIR Status | Digital FIR System</title>
+    <link rel="stylesheet" href="track.css">
+    <script src="track.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Track FIR Status</h1>
+        
+        <div class="search-box">
+            <div class="input-group">
+                <label for="fir-id">Enter FIR Number</label>
+                <input type="text" id="fir-id" placeholder="e.g., FIR202300123" required>
+            </div>
+            
+            <button onclick="trackFIR()">Track Status</button>
+        </div>
+        
+        <div id="result" class="result">
+            <h3>FIR Details</h3>
+            <p><strong>FIR ID:</strong> <span id="display-id">FIR202300123</span></p>
+            <p><strong>Date Filed:</strong> <span id="display-date">15-01-2025</span></p>
+            <p><strong>Status:</strong> <span id="display-status" class="status-pending">Under Investigation</span></p>
+            <p><strong>Investigating Officer:</strong> <span id="display-officer">IO Rajesh Kumar</span></p>
+            <p><strong>Last Updated:</strong> <span id="display-updated">20-03-2025</span></p>
+        </div>
+        
+        <footer>
+            &copy; 2025 Digital FIR System | For assistance, contact support@digitalfir.gov.in
+        </footer>
+    </div>
+
+</body>
+</html>
